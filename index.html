@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Porfolio de Daniel Caicedo">
+    <meta name="keywords" content="Daniel Caicedo, desarrollador freelance, desarrollo web, aplicaciones, Facatativá, Madrid, Mosquera, Funza, Full Stack Developer, Desarrollador Full Stack, Frontend, Backend, Software, HTML, CSS, JavaScript, .NET">
+    <meta name="Daniel Caicedo" content="Daniel Caicedo">
+    <!--Css para decoración de la página-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Libreria para los iconos de RRSS y para swiper-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <title>Daniel Caicedo - Portafolio</title>
+    <link rel="icon" href="./js/swiper.js">
+
+<body>
+  <header class="header_wrapper">
+      <nav id="navbar">
+          <h1 class="logo">Daniel <span>Caicedo</span></h1>
+          <ul id="nav">
+              <!-- Enlaces de navegación-->
+              <li><a id="navbar-home" href="#home">
+                      <p><span>Inicio</span></p>
+                  </a></li>
+              <li><a id="navbar-technologies" href="#technologies">
+                      <p><span>Tecnologías</span></p>
+                  </a></li>
+              <li><a id="navbar-projects" href="#projects">
+                      <p><span>Proyectos</span></p>
+                  </a></li>
+              <li><a id="navbar-education" href="#education">
+                      <p><span>Educación</span></p>
+                  </a></li>
+              <li><a id="navbar-contact" href="#contact">
+                      <p><span>Contáctame</span></p>
+                  </a></li>
+              <!-- Opciones de idioma -->
+              <li data-language="es">
+                  <img src="img/es.svg" alt="Bandera de España" title="Español" class="flags" data-language="es"
+                      id="es-flag">
+              </li>
+              <li data-language="en">
+                  <img src="img/gb.svg" alt="Bandera del Reino Unido" title="English" class="flags" data-language="en"
+                      id="uk-flag">
+              </li>
+          </ul>
+          <!-- Botón para el menú responsive -->
+          <button class="bars" id="bars">
+              <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+      </nav>
+  </header>  
+    <main>
+      <section class="hero_wrapper" id="home">
+        <article class="hero">
+            <article class="hero_info">
+                <h1 id="hero-hello">¡Hola, soy <span>Daniel Caicedo!</span></h1>
+                <h2 id="hero-typed">Soy <span id="element"></span></h2>
+                <p id="hero-description"> Soy un desarrollador freelance especializado en diseño web y desarrollo de aplicaciones. Me apasiona crear soluciones digitales que impacten positivamente a la comunidad y más allá.</p>
+                <article class="social_icons">
+                    <a href="https://www.linkedin.com/in/daniel-caicedo-castillo/" aria-label="Mi perfil de LinkedIn"
+                        target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Night40050" aria-label="Mi perfil de GitHub" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </article>
+                <article class="btns">
+                    <!-- Enlace al CV -->
+                    <a href="pdf/cvDaniel.pdf" target="_blank">
+                        <button class="button" id="hero-resume">CV</button>
+                    </a>
+                    <a href="#contact">
+                        <button class="button" id="hero-contact">Contáctame</button>
+                    </a>
+                </article>
+            </article>
+            <!-- Imagen de perfil -->
+            <article class="hero_img">
+                <img src="img/MiFoto.png" alt="Foto de Daniel Caicedo" title="Daniel Caicedo - Desarrollador">
+            </article>
+        </article>
+    </section>
+        <section>
+            <section class="technologies" id="technologies">
+                <h2 id="technologies-title">Tecnologías</h2>
+                <article class="technologies_cards">
+                    <article class="technologies_card">
+                        <h3 id="technologies-frontEnd">FRONT-END</h3>
+                        <p>
+                            <img src="img/HTML5.png" alt="Logo de HTML5" title="HTML5" width="15.5%">
+                            <img src="img/CSS3.png" alt="Logo de CSS" title="CSS" width="11%">
+                            <img src="img/angular.png" alt="Logo de angular" title="angular" width="12.5%"  >
+                        </p>
+                    </article>
+                    <article class="technologies_card">
+                        <h3 id="technologies-backEnd">BACK-END</h3>
+                        <p>
+                            <img src="img/java.png" alt="Logo de Java" title="JAVA" width="9%">
+                            <img src="img/c.webp" alt="Logo de C#" title="C#" width="15%">
+                            <img src="img/JavaScript.png" alt="Logo de JavaScript" title="JAVASCRIPT" width="15%">
+                            <img src="img/py.png" alt="Logo de python" title="Python" width="15%">
+                            <img src="img/net.png" alt="Logo de .net" title=".net" width="15%">
+                            <img src="img/spring.png" alt="Logo de spring boot" title="Spring boot" width="15%">
+                          </p>
+                    </article>
+                    <article class="technologies_card">
+                        <h3 id="technologies-learning">APRENDIENDO</h3>
+                        <p>
+                          <img src="img/flask.png" alt="Logo de flask" title="flask" width="15%">
+                        </p>
+                    </article>
+                    <article class="technologies_card">
+                        <h3 id="technologies-tools">HERRAMIENTAS</h3>
+                        <p>
+                          <img src="img/vst.png" alt="Logo de Visual studio" title="VIsual studio" width="10%">
+                            <img src="img/VS.png" alt="Logo de Visual Studio Code" title="VISUAL STUDIO CODE" width="10%">
+                            <img src="img/Git.png" alt="Logo de Git" title="GIT" width="10%">
+                            <img src="img/IntelliJ_IDEA.png" alt="Logo de IntelliJ IDEA" title="INTELLIJ IDEA" width="10%">
+                            <img src="img/PC.png" alt="Logo de pycharm" title="Pycharm" width="11%">
+                          </p>
+                          <p>
+                            <img src="img/SQLserver.png" alt="Logo de SQL server de microsoft" title="SQL server" width="10%">
+                            <img src="img/mongodb.png" alt="Logo de MongoDB" title="MongoDB" width="10%">
+                            <img src="img/MySQL.png" alt="Logo de MySQL" title="MySQL" width="9.5%">
+                          </p>
+                    </article>
+                </article>
+            </section>
+        </section>
+
+        <section>
+            <div class="project_main" id="projects">
+                <h2>Proyectos</h2>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <p>Sistema de información “Bosques en peligro” (julio 2024). 
+                                  Desarrollado en Angular, Spring Boot y MongoDB, permite 
+                                  a los usuarios participar en un foro dedicado a la 
+                                  forestación. Busca fomentar la conciencia sobre la 
+                                  importancia de la forestación a través de la tecnología.      
+                                </p>
+                                <img src="img/BosquesEnPeligro.png" alt="Vista principal Bosques en peligro" title="Bosques en peligro" width="100%">
+                                <div class="project_user">
+                                    <div>
+                                        <h4>Bosques en peligro</h4>
+                                        <p>Java</p>
+                                        <p>Typescript</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <p>Sistema “GreenCoin Health” (2024-1).  
+                                  Desarrollado con .NET, SQL Server, Blazor y Razor, 
+                                  promueve la salud y la nutrición, alineada con los ODS 3 y 
+                                  12. Siguiendo metodología Scrum, la app incentiva estilos 
+                                  de vida saludables. Con una interfaz RWD. 
+                                </p>
+                                <img src="img/GreenCoin.png" alt="Vista principal de green coin health" title="Green Coin Health" width="100%">
+                                <div class="project_user">
+                                    <div>
+                                        <h4>GreenCoin Health</h4>
+                                        <p>c#</p>
+                                        <p>Blazor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <p>Sistema de gestión de inventarios (abril 2024). 
+                                  Desarrollado en .NET, razor y con BD SQL server, gestión 
+                                  de inventarios con 2 roles, usando Bootstrap para el diseño 
+                                  con CRUD para ambos roles y documentación.
+                                </p>
+                                <img src="img/SGI.png" alt="Vista principal del sistema gestor de inventarios" title="SGI" width="100%">
+                                <div class="project_user">
+                                    <div>
+                                        <h4>SGI</h4>
+                                        <p>C#</p>
+                                        <p>Blazor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project_sec">
+                                <p>
+                                  Sistema de gestión de citas (noviembre 2023). 
+                                  Desarrollado en C# y .NET con una base de datos SQL server, 
+                                  gestión de usuarios con 3 roles, integrando una API para 
+                                  pagos y registro de citas con validaciones y documentación. 
+                                </p>
+                                <img src="img/cita.png" alt="Vista principal del sistema de gestion de citas" title="Cita facil" width="100%">
+                                <div class="project_user">
+                                    <div>
+                                        <h4>SGC</h4>
+                                        <p>C#</p>
+                                        <p>Blazor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <article class="education" id="education">
+                <h2 id="education-title">Educación</h2>
+                <article class="timeline">
+                    <article class="timeline_box left  ">
+                        <span id="education-year-0">2018</span>
+                        <h3 id="education-title-0">Bachillerato</h3>
+                        <p id="education-description-0">
+                          Durante mi bachillerato en la <strong>I.E.M Emilio Cifuentes</strong>, 
+                          adquirí habilidades de liderazgo y trabajo en equipo, 
+                          que me prepararon para abordar desafíos técnicos y 
+                          me impulsaron a iniciar mi carrera en desarrollo de software.
+                        </p>
+                    </article>
+                    <article class="timeline_box right  ">
+                        <span id="education-year-1">2020</span>
+                        <h3 id="education-title-1">Técnico en sistemas</h3>
+                        <p id="education-description-1">
+                          Durante mi formación como Técnico en Sistemas en el <strong>SENA</strong>,
+                          adquirí conocimientos clave en desarrollo web con HTML y CSS,
+                          diseño de infraestructuras de red y direccionamiento IP. 
+                        </p>
+                    </article>
+                    <article class="timeline_box left  ">
+                        <span id="education-year-2">2024</span>
+                        <h3 id="education-title-2">Diplomado habilidades en programación con énfasis en 
+                          aplicaciones web</h3>
+                        <p id="education-description-2">
+                          Durante mi diplomado en habilidades de programación web realizado con la <strong>UNIVERSIDAD NACIONAL</strong>, adquirí conocimientos en POO, metodologías ágiles como SCRUM, y control de versiones con Git. Participé en proyectos grupales aplicando buenas prácticas en código, utilizando tecnologías como Django REST, Node.js, Vue.js, PostgreSQL, Flask, Mongo, Spring Boot y Angular, con arquitecturas de 3 capas y microservicios.
+                        </p>
+                    </article>
+                    <article class="timeline_box right  ">
+                      <span id="education-year-2">2024</span>
+                      <h3 id="education-title-2">Diplomado en analítica de datos</h3>
+                      <p id="education-description-2">
+                        Durante mi diplomado en analítica de datos en la <strong>PONTIFICIA UNIVERSIDAD JAVERIANA</strong>, adquirí conocimientos esenciales en ciencia de datos utilizando Python y sus librerías. Aprendí a limpiar y preparar datos, desarrollar y entrenar modelos predictivos, y a visualizar resultados de manera efectiva, fortaleciendo mis habilidades para extraer insights valiosos y tomar decisiones basadas en datos.
+                      </p>
+                    </article>
+                    <article class="timeline_box left  ">
+                      <span id="education-year-2">2024</span>
+                      <h3 id="education-title-2"> Bootcamp de programación</h3>
+                      <p id="education-description-2">
+                        En el bootcamp con la <strong>UNIVERSIDAD SERGIO ARBOLEDA</strong> , adquirí habilidades clave como trabajo en equipo, inglés tecnico y metodologías ágiles. Fortalecí mi experiencia en Java con Spring Boot para el backend y Angular con TypeScript para el frontend, entregando un producto final con base de datos en Mongo. También gestioné documentación, modelado, mockups, cronogramas e historias de usuario como el lider de nuestro grupo, asi como tambien fui participe de una hackaton en la que ocupamos el segundo puesto.
+                      </p>
+                    </article>
+                    <article class="timeline_box right  ">
+                      <span id="education-year-2">actualidad</span>
+                      <h3 id="education-title-2">Ingenieria de sistemas y computacion</h3>
+                      <p id="education-description-2">
+                        Actualmente estoy cursando octavo semestre en la carrera de Ingeniería de Sistemas y Computación en la <strong>Universidad de Cundinamarca</strong> donde he adquirido conocimientos teóricos en cálculo, física y materias propias de la ingeniería. También he desarrollado habilidades en inglés, estructuras de datos, bases de datos, ciberseguridad, programación, investigación, documentación, modelado y varios más.
+                      </p>
+                    </article>
+                </article>
+            </article>
+        </section>
+
+        <section>
+            <section class="contact" id="contact">
+                <h2 id="contact-title">Contácta<span>Me</span></h2>
+
+                <article class="contact_container">
+                    <article class="contact_detail">
+                        <h3>Contáctame</h3>
+                        <h4 id="contact-description">Si tienes alguna duda y/o quieres que forme parte de tu equipo ,
+                            puedes
+                            rellenar el
+                            formulario o contactarme a través de estos medios:</h4>
+                        <article>
+                            <i class="fa-solid fa-map-pin" title="UBICACIÓN"></i>
+                            <p class="size" id="spacemad">Colombia</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-phone" title="TELÉFONO"></i>
+                            <p>+57 31 96 86 17 76</p>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-envelope-open-text" title="EMAIL"></i>
+                            <p>danieleduaedo13@gmail.com</p>
+                        </article>
+                    </article>
+                    <form class="contact_form">
+                        <input type="text" placeholder="Nombre" required name="name" autocomplete="name"
+                            autocapitalize="words" id="contact-form-name">
+                        <input type="email" placeholder="Email" required name="email" autocomplete="email"
+                            id="contact-form-email">
+                        <input type="text" placeholder="Asunto" name="subject" id="contact-form-subject">
+                        <textarea name="message" cols="30" rows="10" placeholder="Mensaje"
+                            id="contact-form-message"></textarea>
+                        <button class="button" type="submit" id="contact-form-button">Envia mensaje</button>
+                    </form>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="social_links">
+            <a href="https://www.linkedin.com/in/daniel-caicedo-castillo/" aria-label="Mi perfil de linkedIn" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Night40050"  aria-label="Mi perfil de GitHub" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </section>
+        <section class="links">
+            <a href="#home">
+                <p>Inicio</p>
+            </a>
+            <a href="#technologies">
+                <p>Tecnologías</p>
+            </a>
+            <a href="#education">
+                <p>Educación</p>
+            </a>
+            <a href="#contact">
+                <p>Contáctme</p>
+            </a>
+        </section>
+        <p id="footer-createdBy"><span>Sitio</span> creado por <span>Daniel Caicedo</span></p>
+        <p id="small">Parcialmente creado con IA</p>
+    </footer>
+
+    <!--Scripts (js) para diversas funcionalidades-->
+    <script src="./js/typed.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
