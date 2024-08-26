@@ -8,7 +8,7 @@
   "hero": {
     "hello": "Hello, I'm",
     "typed": "I'm",
-    "description": "I'm a programmer with knowledge in web design and application development. Also, I aim towards new horizons like video game programming.",
+    "description": "I'm a Full-Stack Software Engineer Specializing in Documented Web and Application Development........",
     "resume": "Resume",
     "contact": "Contact me"
   },
@@ -18,17 +18,32 @@
       {
         "year": "2021-2023",
         "title": "Bachelor's Degree",
-        "description": "Social sciences branch that gave me teamwork skills and ability to work under pressure"
+        "description": "During my high school at <strong>I.E.M Emilio Cifuentes</strong>, I developed leadership and teamwork skills, which prepared me to tackle technical challenges and inspired me to start my career in software development."
       },
       {
-        "year": "2023-Present",
-        "title": "Higher Technician in Multiplatform Application Development",
-        "description": "I acquired knowledge of Back-End programming (Java) and Front-End (HTML5, CSS, JavaScript) and also a real vision of work today"
+        "year": "2020",
+        "title": "Systems Technician",
+        "description": "During my training as a Systems Technician at <strong>SENA</strong>, I gained key knowledge in web development with HTML and CSS, network infrastructure design, and IP addressing."
+      },
+      {
+        "year": "2022",
+        "title": "Diploma in Programming Skills with Emphasis on Web Applications",
+        "description": "During my diploma in web programming skills at <strong>UNIVERSIDAD NACIONAL</strong>, I acquired knowledge in OOP, agile methodologies like SCRUM, and version control with Git. I participated in group projects applying best coding practices, using technologies such as Django REST, Node.js, Vue.js, PostgreSQL, Flask, Mongo, Spring Boot, and Angular, with 3-layer and microservices architectures."
+      },
+      {
+        "year": "2023",
+        "title": "Diploma in Data Analytics",
+        "description": "During my data analytics diploma at <strong>PONTIFICIA UNIVERSIDAD JAVERIANA</strong>, I gained essential knowledge in data science using Python and its libraries. I learned to clean and prepare data, develop and train predictive models, and effectively visualize results, strengthening my ability to extract valuable insights and make data-driven decisions."
       },
       {
         "year": "2024",
-        "title": "OpenBootcamp",
-        "description": "Through videos I improved my critical thinking skills in a video game development bootcamp in Unity with C#"
+        "title": "Programming Bootcamp",
+        "description": "In the bootcamp with <strong>UNIVERSIDAD SERGIO ARBOLEDA</strong>, I acquired key skills such as teamwork, technical English, and agile methodologies. I strengthened my experience in Java with Spring Boot for the backend and Angular with TypeScript for the frontend, delivering a final product with a Mongo database. I also managed documentation, modeling, mockups, schedules, and user stories as the leader of our group, and participated in a hackathon where we secured second place."
+      },
+      {
+        "year": "current",
+        "title": "Systems and Computer Engineering",
+        "description": "I am currently in my eighth semester of Systems and Computer Engineering at <strong>University of Cundinamarca</strong>, where I have acquired theoretical knowledge in calculus, physics, and engineering-specific subjects. I have also developed skills in English, data structures, databases, cybersecurity, programming, research, documentation, modeling, and more."
       }
     ]
   },
@@ -53,7 +68,7 @@
   },
   "footer": {
     "site": "Site",
-    "createdBy": "created by",
+    "createdBy": "created by Night40050",
     "partiallyCreated": "Partially created with AI"
   }
 }

@@ -8,7 +8,7 @@
   "hero": {
     "hello": "¡Hola, soy",
     "typed": "Soy",
-    "description": "Soy un programador con conocimientos en diseño web y desarrollo de aplicaciones. Además, apunto hacia nuevos horizontes como la programación de videojuegos.",
+    "description": "Soy un desarrollador freelance especializado en diseño web y desarrollo de aplicaciones. Me apasiona crear soluciones digitales que impacten positivamente a la comunidad y más allá.",
     "resume": "CV",
     "contact": "Contáctame"
   },
@@ -16,19 +16,34 @@
     "title": "Educación",
     "timeline": [
       {
-        "year": "2021-2023",
+        "year": "2018",
         "title": "Bachillerato",
-        "description": "Rama de ciencias sociales que me otorgo capacidades de trabajo en equipo y trabajar bajo presiónre"
+        "description": " Durante mi bachillerato en la <strong>I.E.M Emilio Cifuentes</strong>, adquirí habilidades de liderazgo y trabajo en equipo, que me prepararon para abordar desafíos técnicos y me impulsaron a iniciar mi carrera en desarrollo de software."
       },
       {
-        "year": "2023-Actualidad",
-        "title": "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma",
-        "description": "Adquirí conocimientos de programación Back-End (Java) y Front-End (HTML5, CSS, JavaScript) y también una visión real del trabajo en la actualidad"
+        "year": "2020",
+        "title": "Técnico en sistemas",
+        "description": "Durante mi formación como Técnico en Sistemas en el <strong>SENA</strong>, adquirí conocimientos clave en desarrollo web con HTML y CSS, diseño de infraestructuras de red y direccionamiento IP."
+      },
+      {
+        "year": "2022",
+        "title": "Diplomado en habilidades en programación con énfasis en aplicaciones web",
+        "description": "Durante mi diplomado en habilidades de programación web realizado con la <strong>UNIVERSIDAD NACIONAL</strong>, adquirí conocimientos en POO, metodologías ágiles como SCRUM, y control de versiones con Git. Participé en proyectos grupales aplicando buenas prácticas en código, utilizando tecnologías como Django REST, Node.js, Vue.js, PostgreSQL, Flask, Mongo, Spring Boot y Angular, con arquitecturas de 3 capas y microservicios."
+      },
+      {
+        "year": "2023",
+        "title": "Diplomado en analítica de datos",
+        "description": "Durante mi diplomado en analítica de datos en la <strong>PONTIFICIA UNIVERSIDAD JAVERIANA</strong>, adquirí conocimientos esenciales en ciencia de datos utilizando Python y sus librerías. Aprendí a limpiar y preparar datos, desarrollar y entrenar modelos predictivos, y a visualizar resultados de manera efectiva, fortaleciendo mis habilidades para extraer insights valiosos y tomar decisiones basadas en datos."
       },
       {
         "year": "2024",
-        "title": "OpenBootcamp",
-        "description": "A través de vídeos mejoré mis capacidades de pensamiento crítico en un bootcamp de desarrollo de videojuegos en Unity con C#"
+        "title": "Bootcamp de programación",
+        "description": "En el bootcamp con la <strong>UNIVERSIDAD SERGIO ARBOLEDA</strong>, adquirí habilidades clave como trabajo en equipo, inglés técnico y metodologías ágiles. Fortalecí mi experiencia en Java con Spring Boot para el backend y Angular con TypeScript para el frontend, entregando un producto final con base de datos en Mongo. También gestioné documentación, modelado, mockups, cronogramas e historias de usuario como líder de nuestro grupo, además de participar en una hackatón donde ocupamos el segundo puesto."
+      },
+      {
+        "year": "actualidad",
+        "title": "Ingeniería de sistemas y computación",
+        "description": "Actualmente estoy cursando octavo semestre en la carrera de Ingeniería de Sistemas y Computación en la <strong>Universidad de Cundinamarca</strong>, donde he adquirido conocimientos teóricos en cálculo, física y materias propias de la ingeniería. También he desarrollado habilidades en inglés, estructuras de datos, bases de datos, ciberseguridad, programación, investigación, documentación, modelado y más."
       }
     ]
   },
@@ -53,7 +68,7 @@
   },
   "footer": {
     "site": "Sitio",
-    "createdBy": "creado por",
+    "createdBy": "creado por Night40050",
     "partiallyCreated": "Parcialmente creado con IA"
   }
 }

@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   fetch(
-    "https://raw.githubusercontent.com/exluyt/Porfolio/main/languages/en.json"
+    "https://raw.githubusercontent.com/Night40050/Night40050.github.io/master/languages/en.json"
   )
     .then((response) => response.json())
     .then((translations) => {
@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   fetch(
-    "https://raw.githubusercontent.com/exluyt/Porfolio/main/languages/es.json"
+    "https://raw.githubusercontent.com/Night40050/Night40050.github.io/master/languages/es.json"
   )
     .then((response) => response.json())
     .then((translations) => {
