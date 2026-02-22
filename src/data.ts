@@ -126,7 +126,7 @@ export const translations = {
             {
                 title: "AI-Powered Support Co-Pilot",
                 description: "An event-driven ticket classification and real-time monitoring system engineered for high-volume support environments.",
-                image: "/img/support-copilot.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783693/support-copilot_a31nh5.png",
                 architecture: {
                     core: "FastAPI + n8n",
                     flow: [
@@ -150,7 +150,7 @@ export const translations = {
             {
                 title: "NutriChat — AI Nutrition Logic Engine",
                 description: "My degree project: A production-grade algorithmic nutrition assistant bridging Telegram with dynamic LLM dietary generation.",
-                image: "/img/telegram.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/telegram_bdva2o.png",
                 architecture: {
                     core: "n8n + Gemini",
                     flow: [
@@ -170,7 +170,7 @@ export const translations = {
             {
                 title: "Inventory Management System",
                 description: "A robust inventory control architecture handling multi-role logic, analytics views, and critical security implementations.",
-                image: "/img/SGI.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783681/SGI_s5vbxo.png",
                 architecture: {
                     core: ".NET Blazor + SQL",
                     flow: [
@@ -189,7 +189,7 @@ export const translations = {
             {
                 title: "Client Conversion Platform (Dental Niche)",
                 description: "High-performance interactive web architecture optimized for local lead generation and visual transformations.",
-                image: "/img/dental.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/dental_zaqeco.png",
                 architecture: {
                     core: "React + Vercel",
                     flow: [
@@ -203,13 +203,13 @@ export const translations = {
                     "Deployed gracefully on Vercel ensuring lightning-fast load times for SEO."
                 ],
                 links: {
-                    live: "https://odontologia-pzcfn8kei-nights-projects-86d02f69.vercel.app/"
+                    live: "https://odontologia-one.vercel.app/"
                 }
             },
             {
                 title: "GreenCoin Health",
                 description: "A specialized fitness web platform tracking and predicting routines for muscle gain or fat loss. The foundational predecessor to my degree project.",
-                image: "/img/GreenCoin.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783681/GreenCoin_s7sf0w.png",
                 architecture: {
                     core: ".NET Blazor",
                     flow: [
@@ -228,7 +228,7 @@ export const translations = {
             {
                 title: "Appointment Management System (SGC)",
                 description: "Comprehensive scheduling system with role-based access control, integrated payment APIs, and strict appointment validations.",
-                image: "/img/cita.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/cita_gqe8ad.png",
                 architecture: {
                     core: "C# .NET + API",
                     flow: [
@@ -374,7 +374,7 @@ export const translations = {
             {
                 title: "Co-Piloto de Soporte con IA",
                 description: "Un sistema de clasificación de tickets guiado por eventos y monitoreo en tiempo real, diseñado para entornos de soporte de alto volumen.",
-                image: "/img/support-copilot.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783693/support-copilot_a31nh5.png",
                 architecture: {
                     core: "FastAPI + n8n",
                     flow: [
@@ -398,7 +398,7 @@ export const translations = {
             {
                 title: "NutriChat — Motor Lógico Nutricional IA",
                 description: "Mi proyecto de grado universitario: Un asistente de nutrición algorítmica de nivel producción que enlaza Telegram con consultas y bases de datos a través de una API.",
-                image: "/img/telegram.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/telegram_bdva2o.png",
                 architecture: {
                     core: "n8n + Gemini",
                     flow: [
@@ -418,7 +418,7 @@ export const translations = {
             {
                 title: "Sistema de Control de Inventario",
                 description: "Una arquitectura robusta de control de inventarios manejando lógica multi-rol, paneles administrativos y seguridad crítica.",
-                image: "/img/SGI.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783681/SGI_s5vbxo.png",
                 architecture: {
                     core: ".NET Blazor + SQL",
                     flow: [
@@ -437,7 +437,7 @@ export const translations = {
             {
                 title: "Plataforma de Conversión de Clientes (Nicho Dental)",
                 description: "Arquitectura web interactiva enfocada en conversión visual, demostrando procesos dentales sin necesidad de explicar la intervención física.",
-                image: "/img/dental.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/dental_zaqeco.png",
                 architecture: {
                     core: "React + Interactividad",
                     flow: [
@@ -451,13 +451,13 @@ export const translations = {
                     "Construcción responsiva con altas métricas de conversión."
                 ],
                 links: {
-                    live: "https://odontologia-pzcfn8kei-nights-projects-86d02f69.vercel.app/"
+                    live: "https://odontologia-one.vercel.app/"
                 }
             },
             {
                 title: "GreenCoin Health",
                 description: "Plataforma web dinámica orientada a la salud, siendo el proyecto predecesor de mi tesis de grado.",
-                image: "/img/GreenCoin.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783681/GreenCoin_s7sf0w.png",
                 architecture: {
                     core: ".NET + SQL Server",
                     flow: [
@@ -476,7 +476,7 @@ export const translations = {
             {
                 title: "Sistema de Gestión de Citas (SGC)",
                 description: "Sistema de reservas con control de acceso por roles, pasarela de pago y algoritmos de validación de disponibilidad.",
-                image: "/img/cita.png",
+                image: "https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/cita_gqe8ad.png",
                 architecture: {
                     core: "C# .NET + API",
                     flow: [

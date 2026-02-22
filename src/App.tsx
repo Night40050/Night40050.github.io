@@ -48,7 +48,7 @@ function App() {
                         <a href="#architecture" className="hover:text-white transition-colors">{t.nav.architecture}</a>
                         <a href="#projects" className="hover:text-white transition-colors">{t.nav.systems}</a>
                         <a href="#contact" className="hover:text-white transition-colors">{t.nav.contact}</a>
-                        <a href="/pdf/cvDaniel.pdf" target="_blank" rel="noreferrer" className="text-brand-primary hover:text-blue-400 transition-colors">{t.nav.resume}</a>
+                        <a href="https://drive.google.com/file/d/10rr7XGsYWhvhiaWJJk7rJAFE3BWnGTNJ/view?usp=sharing" target="_blank" rel="noreferrer" className="text-brand-primary hover:text-blue-400 transition-colors">{t.nav.resume}</a>
 
                         <button
                             onClick={() => setLang(lang === 'es' ? 'en' : 'es')}
@@ -116,7 +116,7 @@ function App() {
                     >
                         <div className="absolute inset-0 bg-gradient-to-tr from-brand-primary/20 to-brand-accent/20 rounded-full blur-3xl -z-10 animate-pulse"></div>
                         <img
-                            src="/img/profile.jpeg"
+                            src="https://res.cloudinary.com/dzdp53kys/image/upload/v1771783680/profile_pxn20c.jpg"
                             alt="Daniel Caicedo"
                             className="rounded-3xl shadow-[0_0_40px_rgba(59,130,246,0.2)] object-cover w-full h-[500px] border border-gray-800"
                         />
@@ -236,7 +236,7 @@ function App() {
                             </div>
 
                             <a
-                                href="https://wa.me/573196861776"
+                                href="https://wa.me/573132884389"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="bg-brand-accent text-brand-900 px-6 py-4 rounded-xl font-bold transition-all hover:bg-emerald-400 hover:-translate-y-1 shadow-[0_0_20px_rgba(16,185,129,0.3)] w-fit flex items-center gap-3"
@@ -248,7 +248,7 @@ function App() {
 
                         <div className="md:w-1/2 relative min-h-[300px] bg-brand-900 border-l border-brand-primary/20 overflow-hidden">
                             <div className="absolute inset-0 bg-brand-900/20 mix-blend-overlay z-10 group-hover:bg-transparent transition-colors duration-500"></div>
-                            <img src="/img/service%20gif.gif" alt="Business Automation Service" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                            <img src="https://res.cloudinary.com/dzdp53kys/image/upload/v1771783681/service_gif_wxzhco.gif" alt="Business Automation Service" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                         </div>
                     </div>
                 </motion.div>
@@ -299,9 +299,9 @@ function App() {
 
                                 {/* Speaker Image Grid */}
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 mb-8">
-                                    <motion.img whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} src="/img/ponencia.jpeg" alt="Conferencia Magistral" className="w-full h-48 sm:h-auto object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border border-gray-700 sm:row-span-2" />
-                                    <motion.img whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} src="/img/ponencia2.jpeg" alt="Enseñando arquitectura n8n" className="w-full h-32 object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border border-gray-700" />
-                                    <motion.img whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} src="/img/ponencia3.jpeg" alt="Diagramas productivos" className="w-full h-32 object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border border-gray-700" />
+                                    <motion.img whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} src="https://res.cloudinary.com/dzdp53kys/image/upload/v1771783679/ponencia_lyjfff.jpg" alt="Conferencia Magistral" className="w-full h-48 sm:h-auto object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border border-gray-700 sm:row-span-2" />
+                                    <motion.img whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} src="https://res.cloudinary.com/dzdp53kys/image/upload/v1771783697/ponencia2_ehppmn.jpg" alt="Enseñando arquitectura n8n" className="w-full h-32 object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border border-gray-700" />
+                                    <motion.img whileHover={{ scale: 1.05 }} transition={{ duration: 0.3 }} src="https://res.cloudinary.com/dzdp53kys/image/upload/v1771783680/ponencia3_lo4ice.jpg" alt="Diagramas productivos" className="w-full h-32 object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.5)] border border-gray-700" />
                                 </div>
                             </div>
 
@@ -364,7 +364,7 @@ function App() {
                                         <motion.img
                                             whileHover={{ scale: 1.03 }}
                                             transition={{ duration: 0.3 }}
-                                            src="/img/intercambio.jpeg"
+                                            src="https://res.cloudinary.com/dzdp53kys/image/upload/v1771783680/intercambio_nh7fow.jpg"
                                             alt="Intercambio Internacional"
                                             className="w-full max-w-sm rounded-xl shadow-[0_4px_25px_rgba(0,0,0,0.5)] border border-gray-700 object-cover"
                                         />
